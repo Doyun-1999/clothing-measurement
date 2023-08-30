@@ -1,8 +1,15 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:clothing_measurement/pages/Camerapage.dart';
 import 'package:clothing_measurement/pages/settingpage.dart';
 
 import 'package:clothing_measurement/provider/navigation_provider.dart';
+=======
+import 'package:getx_mysql_tutorial/pages/Camerapage.dart';
+import 'package:getx_mysql_tutorial/pages/settingpage.dart';
+
+import 'package:getx_mysql_tutorial/provider/navigation_provider.dart';
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
 import 'package:provider/provider.dart';
 import '../provider/chat.dart';
 

@@ -1,7 +1,12 @@
 import 'dart:async';
 
+<<<<<<< HEAD
 import 'package:clothing_measurement/components/splash_widget.dart';
 import 'package:clothing_measurement/pages/app.dart';
+=======
+import 'package:getx_mysql_tutorial/components/splash_widget.dart';
+import 'package:getx_mysql_tutorial/pages/app.dart';
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
 import 'package:flutter/material.dart';
 
 class Intro extends StatefulWidget {

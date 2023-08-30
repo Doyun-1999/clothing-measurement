@@ -4,7 +4,11 @@ import 'dart:io';
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+<<<<<<< HEAD
 import 'package:clothing_measurement/screens/preview_screen.dart';
+=======
+import 'package:getx_mysql_tutorial/screens/preview_screen.dart';
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
 import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:video_player/video_player.dart';

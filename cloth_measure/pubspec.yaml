@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name: clothing_measurement
 description: A new Flutter project.
 
@@ -59,7 +60,9 @@ dependencies:
   image_picker: ^0.8.6
   dotted_border: ^2.0.0+3
   cached_network_image: ^3.2.3
+<<<<<<< HEAD
 
+=======
 flutter_native_splash:
   image: assets/images/splash_screen.jpg
   color: "42a5f5"

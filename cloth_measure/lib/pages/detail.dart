@@ -1,5 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:clothing_measurement/utils/data_utils.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -7,6 +8,15 @@ import 'package:clothing_measurement/helpers/image_helper.dart';
 import 'package:clothing_measurement/models/articles.dart';
 import 'package:clothing_measurement/models/item_favorites.dart';
 import 'package:clothing_measurement/provider/service_provider.dart';
+=======
+import 'package:getx_mysql_tutorial/utils/data_utils.dart';
+import 'package:flutter_svg/svg.dart';
+
+import 'package:getx_mysql_tutorial/helpers/image_helper.dart';
+import 'package:getx_mysql_tutorial/models/articles.dart';
+import 'package:getx_mysql_tutorial/models/item_favorites.dart';
+import 'package:getx_mysql_tutorial/provider/service_provider.dart';
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
 import 'package:carousel_slider/carousel_slider.dart';
 
 import 'package:intl/intl.dart';

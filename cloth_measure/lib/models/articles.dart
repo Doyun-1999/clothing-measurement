@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import 'package:clothing_measurement/models/profile.dart';
+=======
+import 'package:getx_mysql_tutorial/models/profile.dart';
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
 
 class Articles {
   String? id;

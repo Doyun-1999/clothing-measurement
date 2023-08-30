@@ -1,6 +1,10 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:clothing_measurement/screens/preview_screen.dart';
+=======
+import 'package:getx_mysql_tutorial/screens/preview_screen.dart';
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
 
 class CapturesScreen extends StatelessWidget {
   final List<File> imageFileList;

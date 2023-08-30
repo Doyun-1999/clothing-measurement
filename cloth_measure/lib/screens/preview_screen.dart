@@ -1,8 +1,13 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:clothing_measurement/screens/captures_screen.dart';
 import 'package:clothing_measurement/pages/successpage.dart';
+=======
+import 'package:getx_mysql_tutorial/screens/captures_screen.dart';
+import 'package:getx_mysql_tutorial/pages/successpage.dart';
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
 import 'package:http/http.dart' as http;
 import 'package:fluttertoast/fluttertoast.dart';
 

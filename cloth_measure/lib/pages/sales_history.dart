@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 import 'package:clothing_measurement/helpers/image_helper.dart';
 import 'package:clothing_measurement/models/articles.dart';
 import 'package:clothing_measurement/pages/detail.dart';
 import 'package:clothing_measurement/provider/service_provider.dart';
+=======
+import 'package:getx_mysql_tutorial/helpers/image_helper.dart';
+import 'package:getx_mysql_tutorial/models/articles.dart';
+import 'package:getx_mysql_tutorial/pages/detail.dart';
+import 'package:getx_mysql_tutorial/provider/service_provider.dart';
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:intl/intl.dart';

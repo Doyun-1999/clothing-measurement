@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 import 'package:clothing_measurement/models/articles.dart';
 import 'package:clothing_measurement/models/item_favorites.dart';
 import 'package:clothing_measurement/models/profile.dart';
 import 'package:clothing_measurement/services/accountService.dart';
 import 'package:clothing_measurement/services/articlesService.dart';
+=======
+import 'package:getx_mysql_tutorial/models/articles.dart';
+import 'package:getx_mysql_tutorial/models/item_favorites.dart';
+import 'package:getx_mysql_tutorial/models/profile.dart';
+import 'package:getx_mysql_tutorial/services/accountService.dart';
+import 'package:getx_mysql_tutorial/services/articlesService.dart';
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
 import 'package:flutter/material.dart';
 
 import 'package:http/http.dart' as http;

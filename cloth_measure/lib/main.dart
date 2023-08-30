@@ -1,7 +1,11 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+<<<<<<< HEAD
 import 'package:clothing_measurement/pages/app.dart';
+=======
+import 'package:getx_mysql_tutorial/pages/app.dart';
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
 import 'authentication/login.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

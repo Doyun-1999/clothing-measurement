@@ -8,7 +8,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+<<<<<<< HEAD
 import 'package:clothing_measurement/main.dart';
+=======
+import 'package:getx_mysql_tutorial/main.dart';
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

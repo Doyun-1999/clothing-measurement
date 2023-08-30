@@ -1,7 +1,12 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:clothing_measurement/api/api.dart';
 import 'package:clothing_measurement/model/user.dart';
+=======
+import 'package:getx_mysql_tutorial/api/api.dart';
+import 'package:getx_mysql_tutorial/model/user.dart';
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
 import 'package:google_fonts/google_fonts.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
@@ -31,7 +36,11 @@ class _SignupPageState extends State<SignupPage> {
 
         if (responseBody['existEmail'] == true) {
           Fluttertoast.showToast(
+<<<<<<< HEAD
             msg: "이미 가입된 이메일입니다.",
+=======
+            msg: "Email is already in use. Please try another email",
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
           );
         }else{
           saveInfo();
@@ -56,14 +65,22 @@ class _SignupPageState extends State<SignupPage> {
       if(res.statusCode == 200){
         var resSignup = jsonDecode(res.body);
         if(resSignup['success'] == true){
+<<<<<<< HEAD
           Fluttertoast.showToast(msg: '회원가입 성공');
+=======
+          Fluttertoast.showToast(msg: 'Signup successfully');
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
           setState(() {
             userNameController.clear();
             emailController.clear();
             passwordController.clear();
           });
         }else{
+<<<<<<< HEAD
           Fluttertoast.showToast(msg: '다시 시도 해주세요');
+=======
+          Fluttertoast.showToast(msg: 'Error occurred. Please try again');
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
         }
       }
     } catch (e) {
@@ -75,7 +92,11 @@ class _SignupPageState extends State<SignupPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+<<<<<<< HEAD
       backgroundColor: Colors.white,
+=======
+      backgroundColor: Colors.grey[300],
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
       body: SafeArea(
         child: Center(
           child: SingleChildScrollView(
@@ -91,13 +112,21 @@ class _SignupPageState extends State<SignupPage> {
                   height: 30,
                 ),
                 Text(
+<<<<<<< HEAD
                   '회원가입',
+=======
+                  'Sign Up',
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
                   style: GoogleFonts.bebasNeue(fontSize: 36.0),
                 ),
                 SizedBox(
                   height: 10,
                 ),
+<<<<<<< HEAD
                 Text('Thank you for join!',
+=======
+                Text('Thank you for join us',
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
                     style: GoogleFonts.bebasNeue(fontSize: 28)),
                 SizedBox(
                   height: 50,
@@ -119,7 +148,11 @@ class _SignupPageState extends State<SignupPage> {
                             child: TextFormField(
                               controller: userNameController,
                               validator: (val) =>
+<<<<<<< HEAD
                                   val == "" ? "이름을 입력해주세요 " : null,
+=======
+                                  val == "" ? "Please enter username " : null,
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
                               decoration: InputDecoration(
                                   border: InputBorder.none, hintText: 'User'),
                             ),
@@ -142,7 +175,11 @@ class _SignupPageState extends State<SignupPage> {
                             child: TextFormField(
                               controller: emailController,
                               validator: (val) =>
+<<<<<<< HEAD
                                   val == "" ? "이메일 입력" : null,
+=======
+                                  val == "" ? "Please enter email" : null,
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
                               decoration: InputDecoration(
                                   border: InputBorder.none, hintText: 'Email'),
                             ),
@@ -164,7 +201,11 @@ class _SignupPageState extends State<SignupPage> {
                             child: TextFormField(
                               controller: passwordController,
                               validator: (val) =>
+<<<<<<< HEAD
                                   val == "" ? "비밀번호를 입력해주세요" : null,
+=======
+                                  val == "" ? "Please enter password" : null,
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
                               obscureText: true,
                               decoration: InputDecoration(
                                   border: InputBorder.none,
@@ -191,11 +232,19 @@ class _SignupPageState extends State<SignupPage> {
                       child: Container(
                         padding: EdgeInsets.all(20),
                         decoration: BoxDecoration(
+<<<<<<< HEAD
                             color: Colors.blueAccent,
                             borderRadius: BorderRadius.circular(12)),
                         child: Center(
                           child: Text(
                             '회원가입',
+=======
+                            color: Colors.red,
+                            borderRadius: BorderRadius.circular(12)),
+                        child: Center(
+                          child: Text(
+                            'Sign up',
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
                             style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 16,
@@ -212,11 +261,19 @@ class _SignupPageState extends State<SignupPage> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
+<<<<<<< HEAD
                     Text('이미 회원가입을 하셨나요?'),
                     GestureDetector(
                       onTap: () => Get.back(),
                       child: Text(
                         ' 로그인 페이지',
+=======
+                    Text('Already registered?'),
+                    GestureDetector(
+                      onTap: () => Get.back(),
+                      child: Text(
+                        ' Go back Login page!',
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
                         style: TextStyle(
                             color: Colors.blue, fontWeight: FontWeight.bold),
                       ),

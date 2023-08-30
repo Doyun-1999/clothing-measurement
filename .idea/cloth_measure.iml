@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
+<<<<<<< HEAD
   <component name="FacetManager">
     <facet type="android" name="Android">
       <configuration />
     </facet>
   </component>
+=======
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
@@ -12,6 +15,10 @@
       <excludeFolder url="file://$MODULE_DIR$/cloth_measure/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/cloth_measure/.pub" />
     </content>
+<<<<<<< HEAD
+=======
+    <orderEntry type="inheritedJdk" />
+>>>>>>> 6a755e9cd1e090f561b23bd2ea33cc319da8c104
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Dart SDK" level="project" />
     <orderEntry type="library" name="Dart Packages" level="project" />
