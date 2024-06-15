@@ -19,7 +19,7 @@
 
 * 참여 인원
 
-4명 [Application 1명.의류 측정 알고리즘 개발(BE) 2명, AWS 관리(BE) 1명]
+5명 [Application 2명.의류 측정 알고리즘 개발(BE) 2명, AWS 관리(BE) 1명]
 
 * 수상 내역
 
