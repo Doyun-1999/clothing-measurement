@@ -1,0 +1,165 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.getx_mysql_tutorial"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="32" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\rkwhk\Desktop\clothing-measurement-master\cloth_measure\android\app\src\debug\AndroidManifest.xml:7:5-66
+15-->C:\Users\rkwhk\Desktop\clothing-measurement-master\cloth_measure\android\app\src\debug\AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->[:camera_android] C:\Users\rkwhk\Desktop\clothing-measurement-master\cloth_measure\build\camera_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-65
+16-->[:camera_android] C:\Users\rkwhk\Desktop\clothing-measurement-master\cloth_measure\build\camera_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-62
+17    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+17-->[:camera_android] C:\Users\rkwhk\Desktop\clothing-measurement-master\cloth_measure\build\camera_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-71
+17-->[:camera_android] C:\Users\rkwhk\Desktop\clothing-measurement-master\cloth_measure\build\camera_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-68
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\rkwhk\.gradle\caches\transforms-3\afe49968552a671c74a4fb1366fb7aa1\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:24:5-79
+18-->[com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\rkwhk\.gradle\caches\transforms-3\afe49968552a671c74a4fb1366fb7aa1\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:24:22-76
+19
+20    <permission
+20-->[androidx.core:core:1.10.1] C:\Users\rkwhk\.gradle\caches\transforms-3\cbdbfc77071f9a37966f12c3c436b1c8\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+21        android:name="com.example.getx_mysql_tutorial.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.10.1] C:\Users\rkwhk\.gradle\caches\transforms-3\cbdbfc77071f9a37966f12c3c436b1c8\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.10.1] C:\Users\rkwhk\.gradle\caches\transforms-3\cbdbfc77071f9a37966f12c3c436b1c8\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.example.getx_mysql_tutorial.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.10.1] C:\Users\rkwhk\.gradle\caches\transforms-3\cbdbfc77071f9a37966f12c3c436b1c8\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.10.1] C:\Users\rkwhk\.gradle\caches\transforms-3\cbdbfc77071f9a37966f12c3c436b1c8\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+25
+26    <application
+27        android:name="android.app.Application"
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.10.1] C:\Users\rkwhk\.gradle\caches\transforms-3\cbdbfc77071f9a37966f12c3c436b1c8\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+31        android:label="getx_mysql_tutorial" >
+32        <activity
+33            android:name="com.example.getx_mysql_tutorial.MainActivity"
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+35            android:exported="true"
+36            android:hardwareAccelerated="true"
+37            android:launchMode="singleTop"
+38            android:theme="@style/LaunchTheme"
+39            android:windowSoftInputMode="adjustResize" >
+40
+41            <!--
+42                 Specifies an Android theme to apply to this Activity as soon as
+43                 the Android process has started. This theme is visible to the user
+44                 while the Flutter UI initializes. After that, this theme continues
+45                 to determine the Window background behind the Flutter UI.
+46            -->
+47            <meta-data
+48                android:name="io.flutter.embedding.android.NormalTheme"
+49                android:resource="@style/NormalTheme" />
+50
+51            <intent-filter>
+52                <action android:name="android.intent.action.MAIN" />
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+55            </intent-filter>
+56        </activity>
+57        <!--
+58             Don't delete the meta-data below.
+59             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+60        -->
+61        <meta-data
+62            android:name="flutterEmbedding"
+63            android:value="2" />
+64
+65        <provider
+65-->[:image_picker_android] C:\Users\rkwhk\Desktop\clothing-measurement-master\cloth_measure\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+66            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+66-->[:image_picker_android] C:\Users\rkwhk\Desktop\clothing-measurement-master\cloth_measure\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+67            android:authorities="com.example.getx_mysql_tutorial.flutter.image_provider"
+67-->[:image_picker_android] C:\Users\rkwhk\Desktop\clothing-measurement-master\cloth_measure\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+68            android:exported="false"
+68-->[:image_picker_android] C:\Users\rkwhk\Desktop\clothing-measurement-master\cloth_measure\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+69            android:grantUriPermissions="true" >
+69-->[:image_picker_android] C:\Users\rkwhk\Desktop\clothing-measurement-master\cloth_measure\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+70            <meta-data
+70-->[:image_picker_android] C:\Users\rkwhk\Desktop\clothing-measurement-master\cloth_measure\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+71                android:name="android.support.FILE_PROVIDER_PATHS"
+71-->[:image_picker_android] C:\Users\rkwhk\Desktop\clothing-measurement-master\cloth_measure\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+72                android:resource="@xml/flutter_image_picker_file_paths" />
+72-->[:image_picker_android] C:\Users\rkwhk\Desktop\clothing-measurement-master\cloth_measure\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+73        </provider>
+74
+75        <uses-library
+75-->[androidx.window:window:1.0.0-beta04] C:\Users\rkwhk\.gradle\caches\transforms-3\34ccdc97f8caa2e7bab7bb8c13ba58d5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+76            android:name="androidx.window.extensions"
+76-->[androidx.window:window:1.0.0-beta04] C:\Users\rkwhk\.gradle\caches\transforms-3\34ccdc97f8caa2e7bab7bb8c13ba58d5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+77            android:required="false" />
+77-->[androidx.window:window:1.0.0-beta04] C:\Users\rkwhk\.gradle\caches\transforms-3\34ccdc97f8caa2e7bab7bb8c13ba58d5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+78        <uses-library
+78-->[androidx.window:window:1.0.0-beta04] C:\Users\rkwhk\.gradle\caches\transforms-3\34ccdc97f8caa2e7bab7bb8c13ba58d5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+79            android:name="androidx.window.sidecar"
+79-->[androidx.window:window:1.0.0-beta04] C:\Users\rkwhk\.gradle\caches\transforms-3\34ccdc97f8caa2e7bab7bb8c13ba58d5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+80            android:required="false" />
+80-->[androidx.window:window:1.0.0-beta04] C:\Users\rkwhk\.gradle\caches\transforms-3\34ccdc97f8caa2e7bab7bb8c13ba58d5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+81
+82        <provider
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+83            android:name="androidx.startup.InitializationProvider"
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:25:13-67
+84            android:authorities="com.example.getx_mysql_tutorial.androidx-startup"
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:26:13-68
+85            android:exported="false" >
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:27:13-37
+86            <meta-data
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+88                android:value="androidx.startup" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+89        </provider>
+90
+91        <receiver
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+92            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+93            android:directBootAware="false"
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+94            android:enabled="true"
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+95            android:exported="true"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+96            android:permission="android.permission.DUMP" >
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+98                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+99            </intent-filter>
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+101                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+104                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+105            </intent-filter>
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+107                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rkwhk\.gradle\caches\transforms-3\760cb1239566d4af76f5f879062a41ab\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+108            </intent-filter>
+109        </receiver>
+110    </application>
+111
+112</manifest>
